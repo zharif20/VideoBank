@@ -28,5 +28,4 @@
             android:configChanges="screenSize|keyboardHidden|orientation"
             />
     </application>
-
 </manifest>
