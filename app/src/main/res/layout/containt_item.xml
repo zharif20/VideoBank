@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--  Image  -->
+
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:id="@+id/exImageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/ic_media_replay"
+        android:paddingTop="5sp"
+        android:paddingBottom="5sp"/>
+
+    <!--  Title of the video  -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/title"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/exImageView"
+        android:layout_toEndOf="@+id/exImageView" />
+
+    <!--  Description of the video  -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/description"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_toRightOf="@+id/exImageView"
+        android:layout_toEndOf="@+id/exImageView" />
+</RelativeLayout>

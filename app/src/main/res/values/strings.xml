@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Videos</string>
+
+    <string name="video_bank">Video Bank</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="video_handler">Video Handler</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
